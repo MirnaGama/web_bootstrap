@@ -1,0 +1,149 @@
+@import url('https://matiaslescano.com.ar/static/fonts/pixelicious.css');
+
+* {   
+  background-color:black; 
+}
+
+body {
+    width: 420px;
+    position: absolute;
+    left: 5%;
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    font-family: Pixelicious, monospace;
+    height: 350px;
+}
+
+
+article {
+    text-align: center;
+    color: transparent;
+    font-family: Pixelicious, monospace;
+    animation: 2s ease-in-out infinite alternate pulse;
+}
+
+#texto1 {
+    padding-top: 50px;
+}
+
+#titulo {
+    color: transparent;
+    animation: 2s ease-in-out infinite alternate fa-blink;
+    padding-bottom: 20px;
+}
+
+
+.colorful {
+    animation: 2s ease-in-out infinite alternate fa-blink
+  }
+
+#linha1 {
+    padding-right:90px;
+}
+
+#linha2 {
+    padding-right:110px;
+}
+
+#linha3 {
+    padding-right:300px;
+}
+
+/* MENU */
+
+.menu {
+  text-align: center;
+}
+
+.nav-masthead .nav-link {
+    padding: 5px 20px;
+
+    text-align: center;
+
+    color: rgba(168, 246, 248, .5);
+    border-bottom: .25rem dotted transparent;
+    font-size: 1.5em;
+    text-decoration:none;
+  }
+
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+    color: transparent;
+    border-bottom-color: rgba(168, 246, 248, .5);
+    animation: 2s ease-in-out infinite alternate pulse;
+  }
+
+  .nav-masthead .active {
+    color: #f765b8;
+    border-bottom-color: #f765b8;
+  }
+
+  /* Buttons, Select e RadioButtons */
+  .btn {
+    animation: 2s ease-in-out infinite alternate pulse;
+    color: transparent;
+  }
+
+  select option {
+      color: #f765b8;
+  }
+
+
+  /* Se uma opção do radio for marcada, mudar a cor do texto da opção */
+  #linha1 input[type="radio"]:checked + .genderOp {
+    color: #f765b8;
+  }
+
+
+
+/* EFEITOS */
+
+@keyframes fa-blink {
+    0% {color: #a8f6f8; text-shadow: rgba(255,255,255, .9) -.06em -.06em}
+    50% {color: #f765b8; text-shadow: rgba(67,144,126, .9) 0 0}
+    100% {color: #a8f6f8; text-shadow: rgba(202,69,215, .9) -.06em -.06em}
+}
+.fa-blink {
+  -webkit-animation: fa-blink .75s linear infinite;
+  -moz-animation: fa-blink .75s linear infinite;
+  -ms-animation: fa-blink .75s linear infinite;
+  -o-animation: fa-blink .75s linear infinite;
+  animation: fa-blink .75s linear infinite;
+}
+
+
+
+  @keyframes pulse {
+    0% {
+      text-shadow:
+        rgba(255,255,255, .9) -.06em -.06em,
+        rgba(67,144,126, .9) 0 0
+    }
+    
+    33% {
+      text-shadow:
+        rgba(mix(255,255,255, 179,255,251, 33%), .9) -.15em -.15em,
+        rgba(mix(67,144,126, 202,69,215, 33%), .9) 0 0
+    }
+    
+    66% {
+      text-shadow:
+        rgba(mix(255,255,255, 179,255,251, 66%), .9) -.06em -.06em,
+        rgba(mix(67,144,126, 202,69,215, 33%), .9) 0 0
+    }
+    
+    100% {
+      text-shadow:
+        rgba(179,255,251, .9) -.15em -.15em,
+        rgba(202,69,215, .9) 0 0
+    }
+
+}
+
+
+
+
+
