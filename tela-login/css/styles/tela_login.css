@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f5f5; 
+    text-align: center;
+    width: 330px; 
+    left: 35%;  
+    padding:10px;
+    position: absolute; 
+    top: 15%;
+}
+
+#senha {
+    height: 50px; 
+}
+
+#endEmail {
+    height: 50px;
+}
+
