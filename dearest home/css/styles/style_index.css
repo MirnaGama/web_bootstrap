@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+    height: 500px;
+}
+
+.header {
+    justify-content: space-between;
+    
+
+    font-family: 'Karla', sans-serif;
+    background-color: white;
+    border-bottom: solid rgba(221, 219, 219, 0.466);
+}
+
+#titulo {
+    font-size: 2.5em;
+    color: #ea5c5a;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 140px;
+}
+
+
+
+.menu {
+    padding-top: 20px;
+    padding-right: 45px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+li {
+    display: inline;
+    margin-right: 70px;
+  }
+
+
+  li a {
+    font-size: 1.3em;
+    color: black;
+    text-align: center;
+    padding: 10px 5px;
+  }
+
+  li a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.719);
+  }
+
+  .active {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.719);
+  }
+
+
+
+
+
+  .container {
+    padding-top: 40px;
+}
+
+  #textos {
+      padding-top: 80px;
+      padding-left: 30px;
+      width: 550px;
+      font-family: 'Karla', sans-serif;
+      display: inline-block;
+}
+
+   #t1 {
+    font-size: 40px;
+    width: 550px;
+}
+
+   #t2 {
+    font-size: 30px;
+    width: 550px;
+}
+
+#t3 {
+    width: 350px;
+}
+
+   #imagens {
+    float: right;
+}
+
+.btn {
+    background-color: #ea5c5a;
+    color: white;
+    font-size: 30px;
+  }
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+  padding-top: 20px;
+  text-align: center;
+}
+
+
